@@ -1,0 +1,32 @@
+{
+  "name": "dapp-chat",
+  "version": "1.0.0",
+  "description": "Decentralized Chat dApp With React and GunJs",
+  "private": true,
+  "workspaces": [
+    "gun-server",
+    "gun-client"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server && npm run chat",
+    "server": "npm start -w gun-server",
+    "chat": "npm start -w gun-client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dofbi/dapp-chat.git"
+  },
+  "keywords": [
+    "dapp",
+    "react",
+    "gunjs"
+  ],
+  "author": "@dofbi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dofbi/dapp-chat/issues"
+  },
+  "homepage": "https://github.com/dofbi/dapp-chat#readme",
+  "dependencies": {}
+}
